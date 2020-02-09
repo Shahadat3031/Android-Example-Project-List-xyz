@@ -5,6 +5,10 @@
     android:orientation="vertical">
 
     <TextView
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Sheba"
+        android:padding="10dp"
         android:id="@+id/items"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
