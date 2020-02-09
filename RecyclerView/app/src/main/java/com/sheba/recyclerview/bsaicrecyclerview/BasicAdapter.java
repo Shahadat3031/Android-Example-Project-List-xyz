@@ -1,6 +1,7 @@
 package com.sheba.recyclerview.bsaicrecyclerview;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +36,13 @@ public class BasicAdapter extends RecyclerView.Adapter<BasicAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         NameModel nameModel =  names.get(position);
         holder.name.setText(nameModel.getName());
+
+        if(position==(getItemCount()-1)){
+            // here goes some code
+            //  callback.sendMessage(Message);
+            Log.i("Second ***", "onBindViewHolder: " + position);
+        }
+
 
     }
 
