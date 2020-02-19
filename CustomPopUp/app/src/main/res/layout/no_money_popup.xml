@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/_16sdp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/homeLoader"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="wallet.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:textColor="#212540"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingLeft="@dimen/_30sdp"
+        android:text="পর্যাপ্ত টাকা নেই!"
+        android:textSize="@dimen/_18sdp"/>
+
+    <TextView
+        android:textColor="#212540"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingLeft="@dimen/_30sdp"
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="টআপনার সেবা ক্রেডিট-এ পর্যাপ্ত টাকা নেই। দয়া করে সেবা ক্রেডিট রিচার্জ করে আবার চেষ্টা করুন।" />
+
+
+    <Button
+        android:id="@+id/shebaCreditRecharge"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/circle_green"
+        android:text="সেবা ক্রেডিট রিচার্জ করুন"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/gotoHomePage"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="বাদ দিন"
+        android:textColor="#00A24A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
