@@ -7,3 +7,4 @@ All the tested project that I have tested before integrate in the main project a
 4. TabLayout - Basic and Simple Tablayout example
 5. CustomPopUp - Basic Custom Pop With Lottie Files
 6. CustomSnackBar - Normal SnackBar works in Bottom of the layout. But This SanckBar works Top of the layout but under the Action Bar. 
+7. TextWatcherExample - Button Enable Disable by Basic Textwatcher
