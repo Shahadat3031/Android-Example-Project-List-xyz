@@ -5,4 +5,5 @@ All the tested project that I have tested before integrate in the main project a
 2. RecyclerView - Basic RecyclerView + Multiple view type
 3. RetrofitWithRecyclerView - RecyclerView with retrofit (network calling).
 4. TabLayout - Basic and Simple Tablayout example
-4. CustomPopUp - Basic Custom Pop With Lottie Files
+5. CustomPopUp - Basic Custom Pop With Lottie Files
+6. CustomSnackBar - Normal SnackBar works in Bottom of the layout. But This SanckBar works Top of the layout but under the Action Bar. 
