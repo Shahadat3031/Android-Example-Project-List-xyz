@@ -5,3 +5,4 @@ All the tested project that I have tested before integrate in the main project a
 2. RecyclerView - Basic RecyclerView + Multiple view type
 3. RetrofitWithRecyclerView - RecyclerView with retrofit (network calling).
 4. TabLayout - Basic and Simple Tablayout example
+4. CustomPopUp - Basic Custom Pop With Lottie Files
