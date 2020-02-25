@@ -8,3 +8,5 @@ All the tested project that I have tested before integrate in the main project a
 5. CustomPopUp - Basic Custom Pop With Lottie Files
 6. CustomSnackBar - Normal SnackBar works in Bottom of the layout. But This SanckBar works Top of the layout but under the Action Bar. 
 7. TextWatcherExample - Button Enable Disable by Basic Textwatcher
+8. RecyclerViewKotlinExample - This example is not so simple to understand in the first time. But you can try. Hope you will understand.
+8. SimpleRecyclerViewWithKotlin - So easy and understandable if you know about RecyclerView in Java.
